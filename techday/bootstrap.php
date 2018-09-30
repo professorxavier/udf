@@ -2,7 +2,7 @@
 
 session_start();
 
-require __DIR__ . DOMAIN . '/dirConfig.php';
+define('DOMAIN',"/techday");
 
 require __DIR__ . DOMAIN . "/config.php";
 require __DIR__ . DOMAIN . '/src/resolve-route.php';
