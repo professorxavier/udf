@@ -18,3 +18,5 @@ function flash ($message = null, $type= null)
         }
     }
 }
+
+?>

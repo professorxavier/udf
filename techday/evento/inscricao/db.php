@@ -111,3 +111,5 @@ $delete = function ($table,$id) use ($pdo) {
 
 	return $delete->execute();
 };
+
+?>

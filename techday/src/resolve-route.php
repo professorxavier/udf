@@ -12,3 +12,5 @@ function resolve($route)
 
     return false;
 }
+
+?>

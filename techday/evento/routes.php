@@ -13,3 +13,5 @@ if (resolve('/')) {
     render('error/pagefound','evento');
 
 }
+
+?>
