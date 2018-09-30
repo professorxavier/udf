@@ -1,3 +1,9 @@
 <?php
-$bd = new mysqli("localhost","conce967_techday","tech123","conce967_techday");
-?>
+
+define('TYPE',"mysql");
+define('HOST',"localhost");
+define('DBNAME',"techday");
+define('PORT',"3307");
+define('CHARSET',"utf8");
+define('USER',"root");
+define('PASS',"");

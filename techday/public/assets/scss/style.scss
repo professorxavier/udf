@@ -1,0 +1,34 @@
+$my-color-1: #1a73c3;
+$my-color-2: #150578;
+$my-color-3: #0E0E52;
+$my-color-4: #4c68d7;
+$my-color-5: #FFFFFF;
+$my-color-6: #2B2B2B;
+$my-color-7: #000000;
+$my-color-8: #ED1C2D;
+
+$theme-colors:(
+        "my-color-1": $my-color-1,
+        "my-color-2": $my-color-2,
+        "my-color-3": $my-color-3,
+        "my-color-4": $my-color-4,
+        "my-color-5": $my-color-5,
+        "my-color-6": $my-color-6,
+        "my-color-7": $my-color-7,
+        "my-color-8": $my-color-8
+);
+
+body {
+	font: {
+		family: 'Lato', sans-serif;
+		size: 16px;
+		weight: 400;
+	}
+}
+
+.logo {
+	width: 150px;
+	height: 40px;
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
