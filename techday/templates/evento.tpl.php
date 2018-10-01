@@ -8,9 +8,9 @@
 	<meta name="description" content="Sistema Procedural para evento TechDay da UDF" />
 	<meta name="keyword" content="palestra, TI, desenvolvimento, programação, live" />
 	<title>Tech Day</title>
-    <link rel="stylesheet" href="/resources/pnotify/pnotify.custom.min.css" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/resources/datatables/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="/public/resources/pnotify/pnotify.custom.min.css" />
+    <link rel="stylesheet" href="/public/assets/css/style.css" />
+    <link rel="stylesheet" href="/public/resources/datatables/dataTables.bootstrap4.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
 </head>
@@ -42,13 +42,13 @@
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script src="/resources/datatables/jquery.dataTables.min.js"></script>
-	<script src="/resources/datatables/dataTables.bootstrap4.min.js"></script>
+	<script src="/public/resources/datatables/jquery.dataTables.min.js"></script>
+	<script src="/public/resources/datatables/dataTables.bootstrap4.min.js"></script>
 	<script scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script scr="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="/resources/pnotify/pnotify.custom.min.js"></script>
-    <script src="/assets/js/jquery.mask.min.js"></script>
-    <script src="/assets/js/scripts.js"></script>
+    <script src="/public/resources/pnotify/pnotify.custom.min.js"></script>
+    <script src="/public/assets/js/jquery.mask.min.js"></script>
+    <script src="/public/assets/js/scripts.js"></script>
     <script>
         <?php flash(); ?>
 
